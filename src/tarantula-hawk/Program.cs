@@ -30,7 +30,7 @@ namespace TarantulaHawk
       {
         Console.WriteLine("Invalid argument(s)");
         Console.WriteLine("Usage:");
-        Console.WriteLine("dotnet tarantulahawk base_url targer_folder");
+        Console.WriteLine(@"dotnet.exe .\tarantula-hawk.dll base_url targer_folder");
         Console.WriteLine("Example:");
         Console.WriteLine(@"dotnet.exe .\tarantula-hawk.dll https:\\google.com d:\temp");
 
