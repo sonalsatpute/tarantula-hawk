@@ -20,7 +20,7 @@ jobs:
       with:
         dotnet-version: 3.1.301
     - name: Restore dependencies
-      working-directory: ${{ working-directory }}
+      working-directory: ${{working-directory}}
       run: dotnet restore
     - name: Build
       run: dotnet build --no-restore
