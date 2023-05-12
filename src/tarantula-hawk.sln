@@ -13,6 +13,18 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "tarantula-hawk-core-tests",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "tarantula-hawk-core", "tarantula-hawk-core\tarantula-hawk-core.csproj", "{1745D4EC-0014-4E5D-80B5-F5CB3CF9A330}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tarantula-hawk.core", "tarantula-hawk.core\tarantula-hawk.core.csproj", "{50F1BAAA-EEA3-4A0A-8DB2-5BC614DE75EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tarantula-hawk.domain", "tarantula-hawk.domain\tarantula-hawk.domain.csproj", "{DF075670-BB83-4988-B69A-B010F0DD9045}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tarantula-hawk.domain.tests", "tarantula-hawk.domain.tests\tarantula-hawk.domain.tests.csproj", "{92E3F87B-1F27-411D-8752-8789CEFDACC0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solution-folder", "solution-folder", "{0E2A425F-981E-4584-869C-699E21CD5F24}"
+	ProjectSection(SolutionItems) = preProject
+		..\.gitignore = ..\.gitignore
+		..\README.md = ..\README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +43,18 @@ Global
 		{1745D4EC-0014-4E5D-80B5-F5CB3CF9A330}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1745D4EC-0014-4E5D-80B5-F5CB3CF9A330}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1745D4EC-0014-4E5D-80B5-F5CB3CF9A330}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50F1BAAA-EEA3-4A0A-8DB2-5BC614DE75EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50F1BAAA-EEA3-4A0A-8DB2-5BC614DE75EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50F1BAAA-EEA3-4A0A-8DB2-5BC614DE75EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50F1BAAA-EEA3-4A0A-8DB2-5BC614DE75EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF075670-BB83-4988-B69A-B010F0DD9045}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF075670-BB83-4988-B69A-B010F0DD9045}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF075670-BB83-4988-B69A-B010F0DD9045}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF075670-BB83-4988-B69A-B010F0DD9045}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92E3F87B-1F27-411D-8752-8789CEFDACC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92E3F87B-1F27-411D-8752-8789CEFDACC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92E3F87B-1F27-411D-8752-8789CEFDACC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92E3F87B-1F27-411D-8752-8789CEFDACC0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -39,6 +63,9 @@ Global
 		{2AF05224-89DF-47FC-B57D-93BC5DE75404} = {1A3592A1-C71A-4550-810F-18DA4FEE9AF3}
 		{9A253A84-0951-4727-8B4D-122075F50A8F} = {FE630BC4-DB85-4E1C-A2F9-A15E2C9199AB}
 		{1745D4EC-0014-4E5D-80B5-F5CB3CF9A330} = {1A3592A1-C71A-4550-810F-18DA4FEE9AF3}
+		{50F1BAAA-EEA3-4A0A-8DB2-5BC614DE75EA} = {1A3592A1-C71A-4550-810F-18DA4FEE9AF3}
+		{DF075670-BB83-4988-B69A-B010F0DD9045} = {1A3592A1-C71A-4550-810F-18DA4FEE9AF3}
+		{92E3F87B-1F27-411D-8752-8789CEFDACC0} = {FE630BC4-DB85-4E1C-A2F9-A15E2C9199AB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {351A965F-6747-4553-B528-720CFA87468B}
