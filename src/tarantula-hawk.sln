@@ -19,6 +19,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tarantula-hawk.domain", "ta
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tarantula-hawk.domain.tests", "tarantula-hawk.domain.tests\tarantula-hawk.domain.tests.csproj", "{92E3F87B-1F27-411D-8752-8789CEFDACC0}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solution-folder", "solution-folder", "{0E2A425F-981E-4584-869C-699E21CD5F24}"
+	ProjectSection(SolutionItems) = preProject
+		..\.gitignore = ..\.gitignore
+		..\README.md = ..\README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
