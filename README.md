@@ -1,4 +1,4 @@
-![.NET](https://github.com/sonalsatpute/tarantula-hawk/workflows/.NET/badge.svg)
+[![.NET](https://github.com/sonalsatpute/tarantula-hawk/workflows/.NET/badge.svg)](https://github.com/sonalsatpute/tarantula-hawk/workflows/.NET/badge.svg)
 
 # tarantula-hawk
 
